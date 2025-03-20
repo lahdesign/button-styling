@@ -18,13 +18,13 @@ a {display: inline-block;
 }
 
 .first:hover {
-    background-color: #640861;
+    background-color: #380436;
 }
 
 .second {
     background-color: #f8f9fa;
     color: #333;
-    border: 1px solid #ccc;
+    border: 10px solid #ccc;
 }
 
 .second:hover {
@@ -40,11 +40,13 @@ a {display: inline-block;
     padding: 15px 30px;
     font-weight: bold;
     text-transform: uppercase;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.2);
 }
 
 .shadow:hover {
     background-color: #ff6b00;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.9);
+
 }
 
 /* Round button styles */
@@ -57,7 +59,7 @@ a {display: inline-block;
     line-height: 90px;
     padding-top: 30px;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .round:hover {
@@ -69,7 +71,7 @@ a {display: inline-block;
     background-color: transparent;
     color: #007bff;
     border: 2px solid #007bff;
-    transition: all 0.3s ease;
+    transition: all .3s ease;
 }
 
 .outline:hover {
